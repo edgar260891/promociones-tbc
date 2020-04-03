@@ -443,14 +443,6 @@ function buscar()
 function ctrlq(e)
 {
   let al = alert(e.result);
-  console.log(e.a_nombre);
-  console.log(e.c_nombre);
-  console.log(e.m_nombre);
-  console.log(e.r_cliente);
-  console.log(e.c_cliente);
-  console.log(e.m_cliente);
-  console.log(e.m_cliente);
-  console.log(e.d_cantidad);
   if(e.result == 'Esta factura ya se subió' || e.result == '¡Archivo subido correctamente!')
   {
     input.remove();
